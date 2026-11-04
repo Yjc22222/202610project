@@ -1,0 +1,59 @@
+{
+  "model": "Sadanie/pellav2-audio-deepfake-detector",
+  "threshold": 0.5,
+  "threshold_source": "published code, no test tuning",
+  "preprocessing": "published load_clip, 16 kHz mono, centered 4 s",
+  "manifest": "C:\\Users\\27714\\Documents\\Codex\\2026-10-27\\new-chat\\outputs\\datasets\\CVoiceFake_small\\smoke_manifest.csv",
+  "seed": 20261102,
+  "label_counts": {
+    "bonafide": 5,
+    "spoof": 5
+  },
+  "type_counts": {
+    "Bonafide": 5,
+    "griffin_lim_generated": 5
+  },
+  "metrics": {
+    "total": 10,
+    "scored": 10,
+    "failed": 0,
+    "accuracy": 0.7,
+    "balanced_accuracy": 0.7,
+    "fake_recall": 0.4,
+    "real_false_positive_rate": 0.0,
+    "TP_fake": 2,
+    "TN_real": 5,
+    "FP_real_as_fake": 0,
+    "FN_fake_as_real": 3
+  },
+  "by_type": {
+    "Bonafide": {
+      "total": 5,
+      "scored": 5,
+      "failed": 0,
+      "accuracy": 1.0,
+      "balanced_accuracy": null,
+      "fake_recall": null,
+      "real_false_positive_rate": 0.0,
+      "TP_fake": 0,
+      "TN_real": 5,
+      "FP_real_as_fake": 0,
+      "FN_fake_as_real": 0
+    },
+    "griffin_lim_generated": {
+      "total": 5,
+      "scored": 5,
+      "failed": 0,
+      "accuracy": 0.4,
+      "balanced_accuracy": null,
+      "fake_recall": 0.4,
+      "real_false_positive_rate": null,
+      "TP_fake": 2,
+      "TN_real": 0,
+      "FP_real_as_fake": 0,
+      "FN_fake_as_real": 3
+    }
+  },
+  "errors": [],
+  "seconds": 13.40506386756897
+}

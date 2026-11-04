@@ -1,0 +1,115 @@
+{
+  "model": "Sadanie/pellav2-audio-deepfake-detector",
+  "threshold": 0.5,
+  "threshold_source": "published code, no test tuning",
+  "preprocessing": "published load_clip, 16 kHz mono, centered 4 s",
+  "manifest": "C:\\Users\\27714\\Documents\\Codex\\2026-10-27\\new-chat\\outputs\\datasets\\CVoiceFake_small\\cvoicefake_eval_manifest.csv",
+  "seed": 20261102,
+  "label_counts": {
+    "bonafide": 1000,
+    "spoof": 1000
+  },
+  "type_counts": {
+    "Bonafide": 1000,
+    "vctk_style_melgan.v1_generated": 200,
+    "vctk_multi_band_melgan.v2_generated": 200,
+    "world_generated": 200,
+    "griffin_lim_generated": 200,
+    "vctk_parallel_wavegan.v1_generated": 200
+  },
+  "metrics": {
+    "total": 2000,
+    "scored": 2000,
+    "failed": 0,
+    "accuracy": 0.95,
+    "balanced_accuracy": 0.95,
+    "fake_recall": 0.903,
+    "real_false_positive_rate": 0.0030000000000000027,
+    "TP_fake": 903,
+    "TN_real": 997,
+    "FP_real_as_fake": 3,
+    "FN_fake_as_real": 97
+  },
+  "by_type": {
+    "Bonafide": {
+      "total": 1000,
+      "scored": 1000,
+      "failed": 0,
+      "accuracy": 0.997,
+      "balanced_accuracy": null,
+      "fake_recall": null,
+      "real_false_positive_rate": 0.0030000000000000027,
+      "TP_fake": 0,
+      "TN_real": 997,
+      "FP_real_as_fake": 3,
+      "FN_fake_as_real": 0
+    },
+    "griffin_lim_generated": {
+      "total": 200,
+      "scored": 200,
+      "failed": 0,
+      "accuracy": 0.71,
+      "balanced_accuracy": null,
+      "fake_recall": 0.71,
+      "real_false_positive_rate": null,
+      "TP_fake": 142,
+      "TN_real": 0,
+      "FP_real_as_fake": 0,
+      "FN_fake_as_real": 58
+    },
+    "vctk_multi_band_melgan.v2_generated": {
+      "total": 200,
+      "scored": 200,
+      "failed": 0,
+      "accuracy": 0.98,
+      "balanced_accuracy": null,
+      "fake_recall": 0.98,
+      "real_false_positive_rate": null,
+      "TP_fake": 196,
+      "TN_real": 0,
+      "FP_real_as_fake": 0,
+      "FN_fake_as_real": 4
+    },
+    "vctk_parallel_wavegan.v1_generated": {
+      "total": 200,
+      "scored": 200,
+      "failed": 0,
+      "accuracy": 0.98,
+      "balanced_accuracy": null,
+      "fake_recall": 0.98,
+      "real_false_positive_rate": null,
+      "TP_fake": 196,
+      "TN_real": 0,
+      "FP_real_as_fake": 0,
+      "FN_fake_as_real": 4
+    },
+    "vctk_style_melgan.v1_generated": {
+      "total": 200,
+      "scored": 200,
+      "failed": 0,
+      "accuracy": 0.98,
+      "balanced_accuracy": null,
+      "fake_recall": 0.98,
+      "real_false_positive_rate": null,
+      "TP_fake": 196,
+      "TN_real": 0,
+      "FP_real_as_fake": 0,
+      "FN_fake_as_real": 4
+    },
+    "world_generated": {
+      "total": 200,
+      "scored": 200,
+      "failed": 0,
+      "accuracy": 0.865,
+      "balanced_accuracy": null,
+      "fake_recall": 0.865,
+      "real_false_positive_rate": null,
+      "TP_fake": 173,
+      "TN_real": 0,
+      "FP_real_as_fake": 0,
+      "FN_fake_as_real": 27
+    }
+  },
+  "errors": [],
+  "seconds": 144.62546944618225
+}

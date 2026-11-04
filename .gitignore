@@ -1,0 +1,37 @@
+# Local datasets and audio
+**/LA/
+**/datasets/
+*.wav
+*.flac
+*.mp3
+*.ogg
+*.m4a
+*.zip
+*.part
+
+# Large checkpoints are kept outside this source repository.
+*.pt
+*.pth
+!aasist-main/models/weights/AASIST.pth
+!aasist-main/models/weights/AASIST-L.pth
+
+# Generated and local files
+**/__pycache__/
+*.py[cod]
+**/.cache/
+**/pip_cache/
+**/tmp/
+**/logs/
+**/.idea/
+.venv/
+venv/
+**/.pytest_cache/
+*.log
+*.incomplete
+*.tmp
+
+# Credentials
+.env
+.env.*
+*.pem
+*.key

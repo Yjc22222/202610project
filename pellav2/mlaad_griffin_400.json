@@ -1,0 +1,59 @@
+{
+  "model": "Sadanie/pellav2-audio-deepfake-detector",
+  "threshold": 0.5,
+  "threshold_source": "published code, no test tuning",
+  "preprocessing": "published load_clip, 16 kHz mono, centered 4 s",
+  "manifest": "C:\\Users\\27714\\Documents\\Codex\\2026-10-27\\new-chat\\outputs\\pellav2\\mlaad_griffin_manifest.csv",
+  "seed": 20261102,
+  "label_counts": {
+    "spoof": 200,
+    "bonafide": 200
+  },
+  "type_counts": {
+    "griffin_lim": 200,
+    "real": 200
+  },
+  "metrics": {
+    "total": 400,
+    "scored": 400,
+    "failed": 0,
+    "accuracy": 0.7225,
+    "balanced_accuracy": 0.7225,
+    "fake_recall": 0.45,
+    "real_false_positive_rate": 0.0050000000000000044,
+    "TP_fake": 90,
+    "TN_real": 199,
+    "FP_real_as_fake": 1,
+    "FN_fake_as_real": 110
+  },
+  "by_type": {
+    "griffin_lim": {
+      "total": 200,
+      "scored": 200,
+      "failed": 0,
+      "accuracy": 0.45,
+      "balanced_accuracy": null,
+      "fake_recall": 0.45,
+      "real_false_positive_rate": null,
+      "TP_fake": 90,
+      "TN_real": 0,
+      "FP_real_as_fake": 0,
+      "FN_fake_as_real": 110
+    },
+    "real": {
+      "total": 200,
+      "scored": 200,
+      "failed": 0,
+      "accuracy": 0.995,
+      "balanced_accuracy": null,
+      "fake_recall": null,
+      "real_false_positive_rate": 0.0050000000000000044,
+      "TP_fake": 0,
+      "TN_real": 199,
+      "FP_real_as_fake": 1,
+      "FN_fake_as_real": 0
+    }
+  },
+  "errors": [],
+  "seconds": 37.8638710975647
+}

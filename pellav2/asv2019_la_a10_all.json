@@ -1,0 +1,44 @@
+{
+  "model": "Sadanie/pellav2-audio-deepfake-detector",
+  "threshold": 0.5,
+  "threshold_source": "published code, no test tuning",
+  "preprocessing": "published load_clip, 16 kHz mono, centered 4 s",
+  "manifest": "C:\\Users\\27714\\Documents\\Codex\\2026-10-27\\new-chat\\outputs\\pellav2\\asv2019_la_a10_manifest.csv",
+  "seed": 20261102,
+  "label_counts": {
+    "spoof": 4914
+  },
+  "type_counts": {
+    "A10": 4914
+  },
+  "metrics": {
+    "total": 4914,
+    "scored": 4914,
+    "failed": 0,
+    "accuracy": 0.7901912901912902,
+    "balanced_accuracy": null,
+    "fake_recall": 0.7901912901912902,
+    "real_false_positive_rate": null,
+    "TP_fake": 3883,
+    "TN_real": 0,
+    "FP_real_as_fake": 0,
+    "FN_fake_as_real": 1031
+  },
+  "by_type": {
+    "A10": {
+      "total": 4914,
+      "scored": 4914,
+      "failed": 0,
+      "accuracy": 0.7901912901912902,
+      "balanced_accuracy": null,
+      "fake_recall": 0.7901912901912902,
+      "real_false_positive_rate": null,
+      "TP_fake": 3883,
+      "TN_real": 0,
+      "FP_real_as_fake": 0,
+      "FN_fake_as_real": 1031
+    }
+  },
+  "errors": [],
+  "seconds": 218.4562954902649
+}

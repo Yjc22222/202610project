@@ -1,0 +1,115 @@
+{
+  "model": "Sadanie/pellav2-audio-deepfake-detector",
+  "threshold": 0.5,
+  "threshold_source": "published code, no test tuning",
+  "preprocessing": "published load_clip, 16 kHz mono, centered 4 s",
+  "manifest": "C:\\Users\\27714\\Documents\\Codex\\2026-10-27\\new-chat\\outputs\\datasets\\MLAAD-tiny\\eval_griffin_rescue\\manifest.csv",
+  "seed": 20261102,
+  "label_counts": {
+    "spoof": 5,
+    "bonafide": 5
+  },
+  "type_counts": {
+    "Cartesia.ai (Sonic-3)": 1,
+    "real": 5,
+    "DeepGram": 1,
+    "Chatterbox": 1,
+    "Chatterbox Multilingual": 1,
+    "CaroTTS": 1
+  },
+  "metrics": {
+    "total": 10,
+    "scored": 10,
+    "failed": 0,
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "fake_recall": 1.0,
+    "real_false_positive_rate": 0.0,
+    "TP_fake": 5,
+    "TN_real": 5,
+    "FP_real_as_fake": 0,
+    "FN_fake_as_real": 0
+  },
+  "by_type": {
+    "CaroTTS": {
+      "total": 1,
+      "scored": 1,
+      "failed": 0,
+      "accuracy": 1.0,
+      "balanced_accuracy": null,
+      "fake_recall": 1.0,
+      "real_false_positive_rate": null,
+      "TP_fake": 1,
+      "TN_real": 0,
+      "FP_real_as_fake": 0,
+      "FN_fake_as_real": 0
+    },
+    "Cartesia.ai (Sonic-3)": {
+      "total": 1,
+      "scored": 1,
+      "failed": 0,
+      "accuracy": 1.0,
+      "balanced_accuracy": null,
+      "fake_recall": 1.0,
+      "real_false_positive_rate": null,
+      "TP_fake": 1,
+      "TN_real": 0,
+      "FP_real_as_fake": 0,
+      "FN_fake_as_real": 0
+    },
+    "Chatterbox": {
+      "total": 1,
+      "scored": 1,
+      "failed": 0,
+      "accuracy": 1.0,
+      "balanced_accuracy": null,
+      "fake_recall": 1.0,
+      "real_false_positive_rate": null,
+      "TP_fake": 1,
+      "TN_real": 0,
+      "FP_real_as_fake": 0,
+      "FN_fake_as_real": 0
+    },
+    "Chatterbox Multilingual": {
+      "total": 1,
+      "scored": 1,
+      "failed": 0,
+      "accuracy": 1.0,
+      "balanced_accuracy": null,
+      "fake_recall": 1.0,
+      "real_false_positive_rate": null,
+      "TP_fake": 1,
+      "TN_real": 0,
+      "FP_real_as_fake": 0,
+      "FN_fake_as_real": 0
+    },
+    "DeepGram": {
+      "total": 1,
+      "scored": 1,
+      "failed": 0,
+      "accuracy": 1.0,
+      "balanced_accuracy": null,
+      "fake_recall": 1.0,
+      "real_false_positive_rate": null,
+      "TP_fake": 1,
+      "TN_real": 0,
+      "FP_real_as_fake": 0,
+      "FN_fake_as_real": 0
+    },
+    "real": {
+      "total": 5,
+      "scored": 5,
+      "failed": 0,
+      "accuracy": 1.0,
+      "balanced_accuracy": null,
+      "fake_recall": null,
+      "real_false_positive_rate": 0.0,
+      "TP_fake": 0,
+      "TN_real": 5,
+      "FP_real_as_fake": 0,
+      "FN_fake_as_real": 0
+    }
+  },
+  "errors": [],
+  "seconds": 12.470678091049194
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "architecture_config": "AASIST.conf",
+  "weights": "../models/weights/AASIST.pth",
+  "threshold_profile": "../artifacts/threshold.json",
+  "device": "auto",
+  "batch_size": 16,
+  "cpu_threads": 4,
+  "audio": {
+    "sample_rate": 16000,
+    "min_duration_seconds": 0.25,
+    "max_duration_seconds": 1800,
+    "max_file_mb": 256,
+    "decode_timeout_seconds": 120,
+    "ffmpeg": null
+  },
+  "segmentation": {
+    "mode": "sliding",
+    "window_samples": 64600,
+    "hop_samples": 32300,
+    "aggregation": "mean"
+  }
+}

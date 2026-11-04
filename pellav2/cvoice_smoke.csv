@@ -1,0 +1,11 @@
+path,label,group,type,p_fake,predicted,error
+C:\Users\27714\Documents\Codex\2026-10-27\new-chat\outputs\datasets\CVoiceFake_small\audio\zh-CN\Bonafide\common_voice_zh-CN_36533614.mp3,bonafide,zh-CN,Bonafide,0.0007264033774845302,bonafide,
+C:\Users\27714\Documents\Codex\2026-10-27\new-chat\outputs\datasets\CVoiceFake_small\audio\de\griffin_lim_generated\common_voice_de_38024994_Gen.mp3,spoof,de,griffin_lim_generated,0.9992043375968933,spoof,
+C:\Users\27714\Documents\Codex\2026-10-27\new-chat\outputs\datasets\CVoiceFake_small\audio\en\Bonafide\common_voice_en_34925905.mp3,bonafide,en,Bonafide,0.0007383321062661707,bonafide,
+C:\Users\27714\Documents\Codex\2026-10-27\new-chat\outputs\datasets\CVoiceFake_small\audio\it\Bonafide\common_voice_it_38030763.mp3,bonafide,it,Bonafide,0.0007076760521158576,bonafide,
+C:\Users\27714\Documents\Codex\2026-10-27\new-chat\outputs\datasets\CVoiceFake_small\audio\en\griffin_lim_generated\common_voice_en_34925905_Gen.mp3,spoof,en,griffin_lim_generated,0.995088517665863,spoof,
+C:\Users\27714\Documents\Codex\2026-10-27\new-chat\outputs\datasets\CVoiceFake_small\audio\fr\Bonafide\common_voice_fr_38025278.mp3,bonafide,fr,Bonafide,0.0007509745773859322,bonafide,
+C:\Users\27714\Documents\Codex\2026-10-27\new-chat\outputs\datasets\CVoiceFake_small\audio\de\Bonafide\common_voice_de_38024994.mp3,bonafide,de,Bonafide,0.0007891978602856398,bonafide,
+C:\Users\27714\Documents\Codex\2026-10-27\new-chat\outputs\datasets\CVoiceFake_small\audio\zh-CN\griffin_lim_generated\common_voice_zh-CN_36533614_Gen.mp3,spoof,zh-CN,griffin_lim_generated,0.014399434439837933,bonafide,
+C:\Users\27714\Documents\Codex\2026-10-27\new-chat\outputs\datasets\CVoiceFake_small\audio\fr\griffin_lim_generated\common_voice_fr_38025278_Gen.mp3,spoof,fr,griffin_lim_generated,0.0009202996152453125,bonafide,
+C:\Users\27714\Documents\Codex\2026-10-27\new-chat\outputs\datasets\CVoiceFake_small\audio\it\griffin_lim_generated\common_voice_it_38030763_Gen.mp3,spoof,it,griffin_lim_generated,0.07044808566570282,bonafide,

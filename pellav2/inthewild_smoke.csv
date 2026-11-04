@@ -1,0 +1,5 @@
+path,label,group,type,p_fake,predicted,error
+D:\Microsoft VS Code\202610project\aasist-main\datasets\InTheWild\release_in_the_wild\14244.wav,spoof,InTheWild:Alec Guinness,InTheWild,0.9993100166320801,spoof,
+D:\Microsoft VS Code\202610project\aasist-main\datasets\InTheWild\release_in_the_wild\29552.wav,bonafide,InTheWild:Alexandria Ocasio-Cortez,InTheWild,0.0008068809402175248,bonafide,
+D:\Microsoft VS Code\202610project\aasist-main\datasets\InTheWild\release_in_the_wild\3450.wav,bonafide,InTheWild:Christopher Hitchens,InTheWild,0.0007729339995421469,bonafide,
+D:\Microsoft VS Code\202610project\aasist-main\datasets\InTheWild\release_in_the_wild\24499.wav,spoof,InTheWild:Alec Guinness,InTheWild,0.9992923736572266,spoof,

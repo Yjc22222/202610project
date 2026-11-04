@@ -1,0 +1,11 @@
+path,label,group,type,p_fake,predicted,error
+C:\Users\27714\Documents\Codex\2026-10-27\new-chat\outputs\datasets\MLAAD-tiny\fake\de\Cartesia.ai (Sonic-3)\grune_gesicht_06_f000047.wav,spoof,MLAAD-tiny,Cartesia.ai (Sonic-3),0.9994327425956726,spoof,
+C:\Users\27714\Documents\Codex\2026-10-27\new-chat\outputs\datasets\MLAAD-tiny\original\en\piratesofersatz_10_leinster_64kb_f000061.wav,bonafide,MLAAD-tiny,real,0.0008896411745809019,bonafide,
+C:\Users\27714\Documents\Codex\2026-10-27\new-chat\outputs\datasets\MLAAD-tiny\original\de\grune_haus_18_f000046.wav,bonafide,MLAAD-tiny,real,0.000801290269009769,bonafide,
+C:\Users\27714\Documents\Codex\2026-10-27\new-chat\outputs\datasets\MLAAD-tiny\fake\en\DeepGram\jane_eyre_34_f000131.wav,spoof,MLAAD-tiny,DeepGram,0.9994367957115173,spoof,
+C:\Users\27714\Documents\Codex\2026-10-27\new-chat\outputs\datasets\MLAAD-tiny\original\en\midnight_passenger_14_f000325.wav,bonafide,MLAAD-tiny,real,0.0007693435181863606,bonafide,
+C:\Users\27714\Documents\Codex\2026-10-27\new-chat\outputs\datasets\MLAAD-tiny\fake\en\Chatterbox\ozma_of_oz_06_f000099.wav,spoof,MLAAD-tiny,Chatterbox,0.9994364380836487,spoof,
+C:\Users\27714\Documents\Codex\2026-10-27\new-chat\outputs\datasets\MLAAD-tiny\original\en\silent_bullet_02_f000082.wav,bonafide,MLAAD-tiny,real,0.0008167412015609443,bonafide,
+C:\Users\27714\Documents\Codex\2026-10-27\new-chat\outputs\datasets\MLAAD-tiny\original\en\rinkitink_baum_13_64kb_f000100.wav,bonafide,MLAAD-tiny,real,0.000765670498367399,bonafide,
+C:\Users\27714\Documents\Codex\2026-10-27\new-chat\outputs\datasets\MLAAD-tiny\fake\de\Chatterbox Multilingual\toten_seelen_09_f000082.wav,spoof,MLAAD-tiny,Chatterbox Multilingual,0.9994627833366394,spoof,
+C:\Users\27714\Documents\Codex\2026-10-27\new-chat\outputs\datasets\MLAAD-tiny\fake\de\CaroTTS\erzaehlungen_32_poe_f000090.wav,spoof,MLAAD-tiny,CaroTTS,0.999403715133667,spoof,

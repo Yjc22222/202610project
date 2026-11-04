@@ -1,0 +1,45 @@
+{
+  "model": "Sadanie/pellav2-audio-deepfake-detector",
+  "threshold": 0.5,
+  "threshold_source": "published code, no test tuning",
+  "preprocessing": "published load_clip, 16 kHz mono, centered 4 s",
+  "manifest": "C:\\Users\\27714\\Documents\\Codex\\2026-10-27\\new-chat\\outputs\\inthewild-evaluation\\test_manifest.csv",
+  "seed": 20261102,
+  "label_counts": {
+    "spoof": 1000,
+    "bonafide": 1000
+  },
+  "type_counts": {
+    "InTheWild": 2000
+  },
+  "metrics": {
+    "total": 2000,
+    "scored": 2000,
+    "failed": 0,
+    "accuracy": 0.988,
+    "balanced_accuracy": 0.988,
+    "fake_recall": 0.98,
+    "real_false_positive_rate": 0.0040000000000000036,
+    "TP_fake": 980,
+    "TN_real": 996,
+    "FP_real_as_fake": 4,
+    "FN_fake_as_real": 20
+  },
+  "by_type": {
+    "InTheWild": {
+      "total": 2000,
+      "scored": 2000,
+      "failed": 0,
+      "accuracy": 0.988,
+      "balanced_accuracy": 0.988,
+      "fake_recall": 0.98,
+      "real_false_positive_rate": 0.0040000000000000036,
+      "TP_fake": 980,
+      "TN_real": 996,
+      "FP_real_as_fake": 4,
+      "FN_fake_as_real": 20
+    }
+  },
+  "errors": [],
+  "seconds": 139.33208966255188
+}
